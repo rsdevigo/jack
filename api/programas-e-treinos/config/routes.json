@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/programas-e-treinos",
+      "handler": "programas-e-treinos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/programas-e-treinos/count",
+      "handler": "programas-e-treinos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/programas-e-treinos/:id",
+      "handler": "programas-e-treinos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/programas-e-treinos",
+      "handler": "programas-e-treinos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/programas-e-treinos/:id",
+      "handler": "programas-e-treinos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/programas-e-treinos/:id",
+      "handler": "programas-e-treinos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

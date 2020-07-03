@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuarios_e_respostas",
+  "info": {
+    "name": "Usuarios e Questionário"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "questionario": {
+      "model": "questionario",
+      "via": "usuarios_e_respostas"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "usuarios_e_respostas"
+    },
+    "data_de_resposta": {
+      "type": "datetime"
+    },
+    "respostas_dos_questionarios": {
+      "via": "usuarios_e_questionario",
+      "collection": "respostas-dos-questionarios"
+    }
+  }
+}

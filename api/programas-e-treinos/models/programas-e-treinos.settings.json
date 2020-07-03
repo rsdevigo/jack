@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programas_e_treinos",
+  "info": {
+    "name": "Programas e Treinos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "treino": {
+      "model": "treinos",
+      "via": "programas_e_treinos"
+    },
+    "programa": {
+      "model": "programas",
+      "via": "programas_e_treinos"
+    },
+    "ordem_do_treino": {
+      "type": "integer"
+    }
+  }
+}

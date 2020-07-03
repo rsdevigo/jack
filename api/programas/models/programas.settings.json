@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "treinos",
+  "collectionName": "programas",
   "info": {
-    "name": "Treinos"
+    "name": "Programas"
   },
   "options": {
     "increments": true,
@@ -12,15 +12,14 @@
     "nome": {
       "type": "string"
     },
+    "categoria": {
+      "type": "string"
+    },
     "objetivo": {
       "type": "richtext"
     },
-    "treinos_e_atividades": {
-      "collection": "treinos-e-atividades",
-      "via": "treino"
-    },
     "programas_e_treinos": {
-      "via": "treino",
+      "via": "programa",
       "collection": "programas-e-treinos"
     }
   }

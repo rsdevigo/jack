@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/treinos-e-atividades",
+      "handler": "treinos-e-atividades.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treinos-e-atividades/count",
+      "handler": "treinos-e-atividades.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treinos-e-atividades/:id",
+      "handler": "treinos-e-atividades.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/treinos-e-atividades",
+      "handler": "treinos-e-atividades.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/treinos-e-atividades/:id",
+      "handler": "treinos-e-atividades.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/treinos-e-atividades/:id",
+      "handler": "treinos-e-atividades.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "respostas_dos_questionarios",
+  "info": {
+    "name": "Respostas dos Questionários"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "usuarios_e_questionario": {
+      "model": "usuarios-e-respostas",
+      "via": "respostas_dos_questionarios"
+    },
+    "questao": {
+      "model": "questoes",
+      "via": "respostas_dos_questionarios"
+    },
+    "resposta": {
+      "type": "text"
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "treinos",
+  "collectionName": "atividades",
   "info": {
-    "name": "Treinos"
+    "name": "Atividades"
   },
   "options": {
     "increments": true,
@@ -12,16 +12,18 @@
     "nome": {
       "type": "string"
     },
+    "video_tutorial": {
+      "type": "string"
+    },
     "objetivo": {
       "type": "richtext"
     },
-    "treinos_e_atividades": {
-      "collection": "treinos-e-atividades",
-      "via": "treino"
+    "descricao": {
+      "type": "richtext"
     },
-    "programas_e_treinos": {
-      "via": "treino",
-      "collection": "programas-e-treinos"
+    "treinos_e_atividades": {
+      "via": "atividade",
+      "collection": "treinos-e-atividades"
     }
   }
 }

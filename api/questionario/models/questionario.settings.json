@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questionarios",
+  "info": {
+    "name": "Questionário"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "instrucao_preenchimento": {
+      "type": "richtext"
+    },
+    "questoes": {
+      "collection": "questoes",
+      "via": "questionario"
+    },
+    "usuarios_e_respostas": {
+      "via": "questionario",
+      "collection": "usuarios-e-respostas"
+    }
+  }
+}

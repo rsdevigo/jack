@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/usuarios-e-respostas",
+      "handler": "usuarios-e-respostas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usuarios-e-respostas/count",
+      "handler": "usuarios-e-respostas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usuarios-e-respostas/:id",
+      "handler": "usuarios-e-respostas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/usuarios-e-respostas",
+      "handler": "usuarios-e-respostas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/usuarios-e-respostas/:id",
+      "handler": "usuarios-e-respostas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/usuarios-e-respostas/:id",
+      "handler": "usuarios-e-respostas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

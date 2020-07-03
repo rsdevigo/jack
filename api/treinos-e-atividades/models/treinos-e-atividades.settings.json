@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "treinos_e_atividades",
+  "info": {
+    "name": "Treinos e Atividades"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "repeticoes": {
+      "type": "integer"
+    },
+    "duracao": {
+      "type": "time"
+    },
+    "atividade": {
+      "model": "atividades",
+      "via": "treinos_e_atividades"
+    },
+    "treino": {
+      "via": "treinos_e_atividades",
+      "model": "treinos"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/treinos",
+      "handler": "treinos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treinos/count",
+      "handler": "treinos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treinos/:id",
+      "handler": "treinos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/treinos",
+      "handler": "treinos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/treinos/:id",
+      "handler": "treinos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/treinos/:id",
+      "handler": "treinos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

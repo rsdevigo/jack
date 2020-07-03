@@ -12,16 +12,19 @@
     "repeticoes": {
       "type": "integer"
     },
-    "duracao": {
-      "type": "time"
-    },
     "atividade": {
       "model": "atividades",
       "via": "treinos_e_atividades"
     },
     "treino": {
-      "via": "treinos_e_atividades",
-      "model": "treinos"
+      "model": "treinos",
+      "via": "treinos_e_atividades"
+    },
+    "duracao": {
+      "type": "string"
+    },
+    "ordem": {
+      "type": "integer"
     }
   }
 }

@@ -16,8 +16,8 @@
       "type": "richtext"
     },
     "treinos_e_atividades": {
-      "collection": "treinos-e-atividades",
-      "via": "treino"
+      "via": "treino",
+      "collection": "treinos-e-atividades"
     },
     "programas_e_treinos": {
       "via": "treino",

@@ -13,10 +13,6 @@
       "model": "usuarios-e-respostas",
       "via": "respostas_dos_questionarios"
     },
-    "questao": {
-      "model": "questoes",
-      "via": "respostas_dos_questionarios"
-    },
     "resposta": {
       "type": "text"
     }

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuarios_e_programas",
+  "info": {
+    "name": "Usuários e Programas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "programa": {
+      "model": "programas"
+    },
+    "data_vinculacao": {
+      "type": "date"
+    },
+    "nome_usuario": {
+      "type": "string"
+    },
+    "motivo": {
+      "type": "string"
+    },
+    "current_train_number": {
+      "type": "integer",
+      "default": 0
+    },
+    "finalizado": {
+      "type": "boolean"
+    }
+  }
+}

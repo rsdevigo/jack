@@ -20,10 +20,6 @@
     },
     "descricao": {
       "type": "richtext"
-    },
-    "treinos_e_atividades": {
-      "via": "atividade",
-      "collection": "treinos-e-atividades"
     }
   }
 }

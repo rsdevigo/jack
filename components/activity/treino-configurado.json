@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_activity_treino_configurados",
+  "info": {
+    "name": "Treino Configurado",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "treino": {
+      "model": "treinos"
+    },
+    "objetivo": {
+      "type": "string"
+    }
+  }
+}

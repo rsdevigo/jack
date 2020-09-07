@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_question_questoes_de_escolhas",
+  "info": {
+    "name": "Questões de Escolha",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "texto_da_questao": {
+      "type": "string"
+    },
+    "obrigatorio": {
+      "type": "boolean"
+    },
+    "ordem_da_questao": {
+      "type": "integer"
+    },
+    "escolhas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.escolhas"
+    }
+  }
+}

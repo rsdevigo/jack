@@ -18,9 +18,10 @@
     "objetivo": {
       "type": "richtext"
     },
-    "programas_e_treinos": {
-      "via": "programa",
-      "collection": "programas-e-treinos"
+    "lista_de_treinos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "activity.treino-configurado"
     }
   }
 }

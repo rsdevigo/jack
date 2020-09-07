@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_question_coleta_de_dados_questionarios",
+  "info": {
+    "name": "Coleta de Dados: Questionários",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "questionario": {
+      "model": "questionario"
+    },
+    "objetivo_questionario": {
+      "type": "string"
+    }
+  }
+}

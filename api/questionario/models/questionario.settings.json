@@ -18,13 +18,16 @@
     "instrucao_preenchimento": {
       "type": "richtext"
     },
-    "questoes": {
-      "collection": "questoes",
+    "usuarios_e_respostas": {
+      "collection": "usuarios-e-respostas",
       "via": "questionario"
     },
-    "usuarios_e_respostas": {
-      "via": "questionario",
-      "collection": "usuarios-e-respostas"
+    "lista_de_questoes": {
+      "type": "dynamiczone",
+      "components": [
+        "question.questoes-de-escolha",
+        "question.questoes"
+      ]
     }
   }
 }

@@ -10,8 +10,8 @@
   },
   "attributes": {
     "questionario": {
-      "model": "questionario",
-      "via": "usuarios_e_respostas"
+      "via": "usuarios_e_respostas",
+      "model": "questionario"
     },
     "user": {
       "plugin": "users-permissions",

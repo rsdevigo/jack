@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_activity_atividade_configuradas",
+  "info": {
+    "name": "Atividade Configurada",
+    "icon": "football-ball"
+  },
+  "options": {},
+  "attributes": {
+    "atividade": {
+      "model": "atividades"
+    },
+    "repeticao": {
+      "type": "string"
+    },
+    "duracao": {
+      "type": "string"
+    }
+  }
+}

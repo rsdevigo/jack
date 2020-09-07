@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_question_escolhas",
+  "info": {
+    "name": "Escolhas",
+    "icon": "caret-right"
+  },
+  "options": {},
+  "attributes": {
+    "texto_da_escolha": {
+      "type": "string"
+    }
+  }
+}

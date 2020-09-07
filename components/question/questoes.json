@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_question_questoes",
+  "info": {
+    "name": "Questões de Texto",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "texto_da_questao": {
+      "type": "string"
+    },
+    "obrigatorio": {
+      "type": "boolean"
+    },
+    "ordem_da_questao": {
+      "type": "integer"
+    }
+  }
+}

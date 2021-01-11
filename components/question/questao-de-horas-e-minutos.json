@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_question_questao_de_horas_e_minutos",
+  "info": {
+    "name": "Questões de Horas e Minutos",
+    "icon": "hourglass-end"
+  },
+  "options": {},
+  "attributes": {
+    "texto_da_questao": {
+      "type": "string"
+    },
+    "obrigatorio": {
+      "type": "boolean"
+    }
+  }
+}

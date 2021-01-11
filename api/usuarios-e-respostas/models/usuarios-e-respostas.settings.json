@@ -10,8 +10,8 @@
   },
   "attributes": {
     "questionario": {
-      "via": "usuarios_e_respostas",
-      "model": "questionario"
+      "model": "questionario",
+      "via": "usuarios_e_respostas"
     },
     "user": {
       "plugin": "users-permissions",
@@ -22,8 +22,15 @@
       "type": "datetime"
     },
     "respostas_dos_questionarios": {
-      "via": "usuarios_e_questionario",
       "collection": "respostas-dos-questionarios"
+    },
+    "Resultado": {
+      "type": "enumeration",
+      "enum": [
+        "Baixo",
+        "Moderado",
+        "Alto"
+      ]
     }
   }
 }

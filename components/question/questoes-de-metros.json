@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_question_questoes_de_metros",
+  "info": {
+    "name": "Questões de Metros",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "texto_da_questao": {
+      "type": "string"
+    },
+    "obrigatorio": {
+      "type": "boolean"
+    }
+  }
+}

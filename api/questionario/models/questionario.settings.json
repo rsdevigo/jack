@@ -19,8 +19,8 @@
       "type": "richtext"
     },
     "usuarios_e_respostas": {
-      "collection": "usuarios-e-respostas",
-      "via": "questionario"
+      "via": "questionario",
+      "collection": "usuarios-e-respostas"
     },
     "lista_de_questoes": {
       "type": "dynamiczone",

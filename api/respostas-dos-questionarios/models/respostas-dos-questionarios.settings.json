@@ -9,12 +9,11 @@
     "timestamps": true
   },
   "attributes": {
-    "usuarios_e_questionario": {
-      "model": "usuarios-e-respostas",
-      "via": "respostas_dos_questionarios"
-    },
     "resposta": {
       "type": "text"
+    },
+    "pergunta": {
+      "type": "string"
     }
   }
 }

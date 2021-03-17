@@ -54,8 +54,15 @@
       "configurable": false
     },
     "usuarios_e_respostas": {
-      "via": "user",
-      "collection": "usuarios-e-respostas"
+      "collection": "usuarios-e-respostas",
+      "via": "user"
+    },
+    "last_step": {
+      "type": "integer",
+      "default": 0
+    },
+    "peso": {
+      "type": "decimal"
     }
   }
 }

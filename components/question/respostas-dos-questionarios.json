@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_question_respostas_dos_questionarios",
+  "info": {
+    "name": "respostas_dos_questionarios",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "pergunta": {
+      "type": "text"
+    },
+    "resposta": {
+      "type": "text"
+    }
+  }
+}

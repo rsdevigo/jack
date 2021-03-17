@@ -1,18 +1,24 @@
 {
-  "kind": "singleType",
-  "collectionName": "etapa_coleta_de_dados",
+  "kind": "collectionType",
+  "collectionName": "etapas",
   "info": {
-    "name": "Etapa: Coleta de Dados"
+    "name": "Etapas"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "lista_de_questionarios": {
+    "nome_da_etapa": {
+      "type": "string"
+    },
+    "questionarios": {
       "type": "component",
       "repeatable": true,
       "component": "question.coleta-de-dados-questionarios"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

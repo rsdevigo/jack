@@ -14,15 +14,12 @@
       "via": "usuarios_e_respostas"
     },
     "user": {
+      "via": "usuarios_e_respostas",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "usuarios_e_respostas"
+      "model": "user"
     },
     "data_de_resposta": {
       "type": "datetime"
-    },
-    "respostas_dos_questionarios": {
-      "collection": "respostas-dos-questionarios"
     },
     "Resultado": {
       "type": "enumeration",
@@ -31,6 +28,11 @@
         "Moderado",
         "Alto"
       ]
+    },
+    "respostas_dos_questionarios": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.respostas-dos-questionarios"
     }
   }
 }

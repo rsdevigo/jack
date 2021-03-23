@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_profile_testes",
+  "info": {
+    "name": "Teste",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "idade": {
+      "type": "integer"
+    },
+    "peso": {
+      "type": "decimal"
+    },
+    "altura": {
+      "type": "decimal"
+    },
+    "imc": {
+      "type": "decimal"
+    },
+    "porcentagem_gordura": {
+      "type": "decimal"
+    },
+    "massa_muscular": {
+      "type": "decimal"
+    },
+    "gordura_visceral": {
+      "type": "decimal"
+    },
+    "teste_abdominal": {
+      "type": "integer"
+    },
+    "flexibilizacao": {
+      "type": "decimal"
+    },
+    "cintura": {
+      "type": "decimal"
+    },
+    "quadril": {
+      "type": "decimal"
+    },
+    "teste_cooper": {
+      "type": "decimal"
+    },
+    "data_realizacao": {
+      "type": "date"
+    }
+  }
+}

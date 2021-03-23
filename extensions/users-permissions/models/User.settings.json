@@ -61,8 +61,13 @@
       "type": "integer",
       "default": 0
     },
-    "peso": {
-      "type": "decimal"
+    "nome_completo": {
+      "type": "string"
+    },
+    "testes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.teste"
     }
   }
 }

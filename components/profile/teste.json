@@ -30,7 +30,7 @@
     "teste_abdominal": {
       "type": "integer"
     },
-    "flexibilizacao": {
+    "flexibilidade": {
       "type": "decimal"
     },
     "cintura": {

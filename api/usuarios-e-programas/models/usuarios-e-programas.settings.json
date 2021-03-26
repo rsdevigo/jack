@@ -19,12 +19,6 @@
     "data_vinculacao": {
       "type": "date"
     },
-    "nome_usuario": {
-      "type": "string"
-    },
-    "motivo": {
-      "type": "string"
-    },
     "current_train_number": {
       "type": "integer",
       "default": 0

@@ -9,7 +9,7 @@
     "treino": {
       "model": "treinos"
     },
-    "objetivo": {
+    "descricao": {
       "type": "string"
     }
   }

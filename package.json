@@ -14,7 +14,7 @@
     "knex": "<0.20.0",
     "pg": "^8.2.1",
     "pg-connection-string": "^2.4.0",
-    "qs": "^6.9.6",
+    "qs": "^6.9.7",
     "sqlite3": "latest",
     "strapi": "3.0.5",
     "strapi-admin": "3.0.5",
